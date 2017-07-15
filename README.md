@@ -17,15 +17,17 @@ $ python3 csv_to_images.py -f <path to the fer2013.csv file> -o <output folder t
 ```
 2. Download the landmarks file from [here](https://www.kaggle.com/c/challenges-in-representation-learning-facial-expression-recognition-challenge/data)
 
-3. train the model by running the following in the terminal
+3. Train the model by running the following in the terminal
 ```
 $ python3 train.py
 ```
 
 ## Results
 
-
-
+Model              | Accuracy
+------------------ | -------------
+LogisticRegression | 55.1%
+RandomForest       | 54%
 
 
 
