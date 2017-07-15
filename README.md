@@ -10,8 +10,21 @@ You will need the following to run the above:
  * Dlib
  
 ## How to run the code
-1. *  Download the the 'fer2013' dataset from [here](https://www.kaggle.com/c/challenges-in-representation-learning-facial-expression-recognition-challenge/data)
-   * ds
+1. *  Download the 'fer2013' dataset from [here](https://www.kaggle.com/c/challenges-in-representation-learning-facial-expression-recognition-challenge/data)
+   * run the following script to convert the .csv file into images
+```
+$ python3 csv_to_images.py -f <path to the fer2013.csv file> -o <output folder to save images in>
+```
+2. Download the landmarks file from [here](Download the the 'fer2013' dataset from [here](https://www.kaggle.com/c/challenges-in-representation-learning-facial-expression-recognition-challenge/data)
+
+3. train the model by running the following in the terminal
+```
+$ python3 train.py
+```
+
+## Results
+
+
 
 
 
