@@ -29,5 +29,6 @@ Model              | Accuracy
 LogisticRegression | 55.1%
 RandomForest       | 54%
 
+Note: While the training time is very short compared to CNN, we lost much of the accuracy compared to the actual best result that uses CNN.
 
 
